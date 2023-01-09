@@ -6,7 +6,7 @@ cloaking (for some stupid reason, they dont propogate real
 hostnames, so as an oper you need to **remote whois**
 everyone you want to see the ip of)
 
-so i made this. if you have the CloakHostSalt and 5gb of
+so i made this. if you have the CloakHostSalt and a lot of
 free space you can store a table of all ipv4 host cloaks (in
 my experience, ban evaders seem to almost always use ipv4
 with no rdns for some reason lol)
