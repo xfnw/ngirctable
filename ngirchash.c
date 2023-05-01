@@ -7,21 +7,14 @@
 #include "hash.c"
 #include <stdio.h>
 
-int a;
-int b;
-int c;
-int d;
-
 int
 main(int argc, char *argv[]) {
-
 	char *salt = argv[1];
-	//printf("%s\n",salt);
 
-					char host_buffer[255];
-					strcpy(host_buffer,argv[2]);
-					strcat(host_buffer,salt);
+	char host_buffer[255];
+	strcpy(host_buffer,argv[2]);
+	strcat(host_buffer,salt);
 
-					printf("%x\n",Hash(host_buffer));
+	printf("%x\n",Hash(host_buffer));
 
 }

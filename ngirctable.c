@@ -14,9 +14,7 @@ int d;
 
 int
 main(int argc, char *argv[]) {
-
 	char *salt = argv[1];
-	//printf("%s\n",salt);
 
 	for (a=1; a<=255; a++) {
 		for (b=1; b<=255; b++) {
