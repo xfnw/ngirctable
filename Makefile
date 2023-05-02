@@ -1,7 +1,7 @@
 CFLAGS=-O3 -march=native
 
-all: ngirctable ngirchash ngircchain
+all: ngirctable ngirchash ngircchain ngircgen
 
 clean:
-	rm -f ngirctable ngirchash ngircchain
+	rm -f ngirctable ngirchash ngircchain ngircgen
 
